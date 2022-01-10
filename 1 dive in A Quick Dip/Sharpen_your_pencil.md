@@ -21,3 +21,23 @@
 | catch (FileNotFoundException ex) {| this must be where you find out if thing you tried didn't work|
 | Sytem.out.print("File not found.");| if the thing we tried failed, print out "File not found."| 
 | }| look like everything in {} is what to do if the 'try' didn't work|
+
+## Sharpen your pencil (Page 13)
+###### Answer
+```
+public class DooBee {
+  public static void main (String[] args) {
+    int x = 1;
+    while (x < 3) {
+      System.out.print("Doo");
+      System.out.print("Bee");
+      x = x + 1;
+    }
+
+    if (x == 3) {
+      System.out.print("Doo");
+    }
+  }
+}
+
+```
