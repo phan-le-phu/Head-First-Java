@@ -21,3 +21,44 @@
 19. declare
 20. JVM
 21. command
+
+## puzzle (Page 23)
+###### Answer
+
+```java
+class Test {
+  public static void main(String[] args) {
+    int x = 0;
+    int y = 0;
+    while (x < 5) {
+      // Begin candidate
+      y = x - y;
+      // End candidate
+      System.out.print(x + "" + y + " ");
+      x = x + 1;
+    }
+  }
+}
+
+// Output: 00 11 21 32 42
+
+```
+
+```java
+class Test {
+  public static void main(String[] args) {
+    int x = 0;
+    int y = 0;
+    while (x < 5) {
+      // Begin candiate
+      y = y + x;
+      // End candiate
+      System.out.print(x + "" + y + " ");
+      x = x + 1;
+    }
+  }
+}
+
+// Output: 00 11 23 35 410
+
+```
