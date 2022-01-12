@@ -29,3 +29,21 @@ class Echo { // blank line
   }
 }
 ```
+
+## Puzzle (page 45)
+###### Answer
+
+I am compiled from a .java file: class
+My instance varible values can be different from my buddys' value: Object
+I behave like a template: class
+I like to do stuff: method, object
+I can have many methods: class, object
+I represent 'state': instance varible
+I have behaviors: class, object
+I am located in objects: method, instance variable
+I live on the heap: object
+I am used to create object instances: class
+My state can change: object, instance variable
+I declare methods: class
+I can change at runtime: object, instance variable
+
