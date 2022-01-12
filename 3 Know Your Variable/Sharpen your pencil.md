@@ -15,3 +15,10 @@ short n = 12; // legal
 v = n; // illegal
 byte k = 128; // illegal
 ```
+## Sharpen your pencil (page 60)
+###### Answer
+
+The current value of pets[2] is `null`
+This code `pets[3] = pets[0]` would make pets[3] refer to the Dog object what pets[0] refer too.
+
+
