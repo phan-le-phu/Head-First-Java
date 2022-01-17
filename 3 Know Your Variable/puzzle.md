@@ -35,8 +35,8 @@ class Triangle {
 ## puzzle: Heap o' Trouble page 65
 ###### Answer
 
-hq[0] --> null
-hq[1] --> HeapQuiz Objects (id = 1)
-hq[2] --> null
-hq[3] --> HeapQuiz Objects (id = 2)
+hq[0] --> null <br />
+hq[1] --> HeapQuiz Objects (id = 1) <br />
+hq[2] --> null <br />
+hq[3] --> HeapQuiz Objects (id = 2) <br />
 hq[4] --> HeapQuiz Objects (id = 0)
