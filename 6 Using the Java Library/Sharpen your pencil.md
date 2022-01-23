@@ -8,8 +8,8 @@
 |myList.add(a);|myList[0] = a;|
 |String b = new String("Frog");|String b = new String("Frog");|
 |myList.add(b);|myList[1] = b;|
-|int theSize = myList.size();|int theSize = 2;|
+|int theSize = myList.size();|int theSize = myList.length;|
 |Object o = myList.get(1);|Object o = myList[1];|
 |myList.remove(1);|myList[1] = null;|
-|boolean isIn = myList.contains(b);|boolean isIn = false; \n for (String e : myList) { if (e == b) {isIn = True; break;} }|
+|boolean isIn = myList.contains(b);|boolean isIn = false; for (String e : myList) { if (b.equals(item)) {isIn = True; break;} }|
 
