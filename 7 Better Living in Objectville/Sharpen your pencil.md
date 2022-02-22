@@ -33,3 +33,18 @@ Can a FamilyDoctor do makeIncision?
 | Bass Player | Musician    |            |
 | Concert Pianist | Musician |           | 
 | People      |             | Fan, Musician |
+
+## Page 179
+###### Answer
+
+- [] Oven extends Kitchen
+- [x] Guitar extends Instrument
+- [] Person extends Employee
+- [] Ferrari extends Engine
+- [x] FriedEgg extends Food
+- [x] Beagle extends Pet
+- [] Container extends Jar
+- [] Metal extends Titanium
+- [x] GratefulDead extends Band 
+- [] Blone extends Smart
+- [] Beverage extends Martini
