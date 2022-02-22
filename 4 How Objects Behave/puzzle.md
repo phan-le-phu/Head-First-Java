@@ -152,3 +152,7 @@ class Puzzle4b { // blank line
   }
 }
 ```
+
+## Page 92
+###### Answer
+
