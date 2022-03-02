@@ -1,0 +1,32 @@
+## crossword (Page 350)
+###### Answer
+
+1. assignment
+2. scope
+3. instance
+4. private/popped
+5. math
+6. subclass
+7. state
+8. invoke
+9. class
+10. hierarchy
+11. instantiate
+12. checked
+13. handle
+14. try
+15. exception
+16. inherit
+17. setter
+18. keyword
+19. declare
+20. tree
+21. duck
+22. catch
+23. throw
+24. int
+25. algorithm
+26. isa
+27. throws
+28. concrete
+29. new
