@@ -15,6 +15,49 @@ The method where all the graphics code goes: paintComponent <br>
 I'm typically bound to an intance: inner instance <br>
 The 'g' in (Graphics g), is really of class: Graphics2d <br>
 The method that gets paintComponent rolling: repaint <br>
-The package where most of the Swinger reside: javax.swing
+The package where most of the Swinger reside: javax.swing <br>
+
+## Be the Compiler
+###### Answer
+
+```java
+import javax.swing.*;
+import java.awt.event.*;
+import java.awt.*;
+
+class InnerButton {
+  JFrame frame;
+  JButton b;
+
+  public static void main(String[] args) {
+    InnerButton gui = new InnerButton();
+    gui.go();
+  }
+
+  public void go() {
+    frame = new JFrame();
+    frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
+    b = new JButton("A");
+    b.addActionListener(new Blistener());
+
+    frame.getContentPane().add(BorderLayout.SOUTH, b);
+    frame.setSize(200, 100);
+    frame.setVisible(true);
+  }
+
+  class Blistener implements ActionListener {
+    public void actionPerformed(ActionEvent event) {
+      if (b.getText().equals("A")) {
+        b.setText("B");
+      } else {
+        b.setText("A");
+      }
+    }
+  }
+}
+```
+
+
 
 
