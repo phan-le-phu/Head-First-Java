@@ -1,0 +1,29 @@
+## Crossword (Page 425)
+###### Answer
+
+1. drawpanel
+2. awt
+3. setsize
+4. center
+5. metal
+6. graphic
+7. widget
+8. setsize
+9. listener
+10. north
+11. event
+12. add
+13. policy
+14. callback
+15. flow
+16. isa
+17. animation
+18. action
+19. outer
+20. panel
+21. textarea
+22. aqua
+23. checkbox
+24. west
+25. label
+26. actionListener
