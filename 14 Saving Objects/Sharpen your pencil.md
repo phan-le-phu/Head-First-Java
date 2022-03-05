@@ -6,8 +6,8 @@
 | Object| No| Not meaningful|
 | String| Yes| |
 | File| Yes| |
-| Date| No|Not meaningful |
+| Date| Yes||
 | OutputStream | No|Not meaningful|
-| OutputStream | No|Only works for the current execution of the JVM|
+| JFrame| Yes||
 | Integer | Yes||
 |System|No| Only works foe the cureent excution of the JVM|
