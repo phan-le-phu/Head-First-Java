@@ -1,9 +1,9 @@
 ## What's First
 ###### Answer
 
-1. The remote service is registered with the RMI registry
-2. The RMI registry is started
-3. The remote service (remote implementation) is instantiated
+1. The RMI registry is started
+2. The remote service (remote implementation) is instantiated
+3. The remote service is registered with the RMI registry
 4. The client does a lookup on the RMI Registry
 5. The client gets the stub from the RMI registry
 6. The client invokes a method on the stub.
