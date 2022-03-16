@@ -30,3 +30,49 @@
 16. ~~JWS application require a .nlp (Network Launch Protocol) file to work properly.~~
 17. ~~A JWS's main method is specified in its JAR file.~~
 
+## Summary-Cross 7.0
+###### Answer
+
+1. dialogs
+2. object
+3. garbage
+4. token
+5. min
+6. transient/try
+7. sort
+8. widgets
+9. atomic
+10. jar
+11. synchronized/stream
+12. chained
+13. deploy
+14. static
+15. save
+16. access
+17. get
+18. executable
+19. buffer
+20. break
+21. integer/implements
+22. filter
+23. binary
+24. wrappers
+25. directory
+26. socket/sate
+27. user
+28. port
+29. package
+30. class/close
+31. sleep
+32. loop
+33. byte
+34. tan
+35. restore
+36. set
+37. extreme
+38. xml
+39. exe
+40. if
+41. manifest
+42. encapsulate
+
